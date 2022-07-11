@@ -45,7 +45,7 @@ try:
 #  streamlit.write('The user entered ', fruit_choice)
 
 
-streamlit.text(fruityvice_response.json())
+#streamlit.text(fruityvice_response.json())
 
 # write your own comment -what does the next line do? 
 
