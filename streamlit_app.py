@@ -41,23 +41,11 @@ try:
     back_from_function=get_fruitvice_data(fruit_choice)
     streamlit.dataframe(back_from_function)
     
-  
-#  streamlit.write('The user entered ', fruit_choice)
-
-
-#streamlit.text(fruityvice_response.json())
-
-# write your own comment -what does the next line do? 
-
-# write your own comment - what does this do?
-
 
 streamlit.header("Snowflake Modue Starts!!")
 
 #don't run anything past here while we troubleshoot
 streamlit.stop()
-
-
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
