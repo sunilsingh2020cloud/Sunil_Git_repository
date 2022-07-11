@@ -35,4 +35,6 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 streamlit.header("Snowflake Modue Starts!!")
+
+import streamlit as st
 import snowflake.connector
